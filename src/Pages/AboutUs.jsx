@@ -1,9 +1,11 @@
-import React from 'react'
+import { Fragment } from "react";
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
-  )
-}
+    <Fragment>
+      <div className="aboutus-container"></div>
+    </Fragment>
+  );
+};
 
-export default AboutUs
+export default AboutUs;
