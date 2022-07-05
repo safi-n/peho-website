@@ -5,7 +5,10 @@ function App() {
   return <div className="App">
     <BrowserRouter>
       <Routes>
-        <Route to='/' element={<HomePage/>}>Home</Route>
+        <Route to='/' element={<HomePage/>}/>
+        <Route to='/' element={<AboutUs/>}/>
+        <Route to='/' element={<ContactUs/>}/>
+        <Route to='/' element={<Empower/>}/>
       </Routes>
     </BrowserRouter>
   </div>;
