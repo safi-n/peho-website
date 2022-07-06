@@ -1,0 +1,18 @@
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 5em;
+}
+
+.footer-logo-box img{
+  height: 5em;
+  margin-bottom: 2em;
+}
+
+.footer-socialMediaIcons-box img{
+  height: 1.3em;
+  margin-right: 1em;
+  margin-top: 1em
+}
