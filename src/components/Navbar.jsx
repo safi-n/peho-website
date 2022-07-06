@@ -4,10 +4,7 @@ import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import PEHOLogo from "../assets/PNG/PEHOLogo_White.png";
 import PEHOLogoBlack from "../assets/PNG/PEHOLogo_Orignal.png";
 const Navbar = () => {
-
-  const navigate = useNavigate()
   const location = useLocation()
-
   const PathMatchRoute = (route) => {
     if (route === location.pathname) {
       return true;
@@ -16,24 +13,24 @@ const Navbar = () => {
   return (
     <Fragment>
       <div className='navbar-container'>
-        <div className="navbar-box">
+        <div className={PathMatchRoute('/')? "navbar-box bg-primary": 'navbar-box bg-white'}>
           <div className="navlogo-box">
             <img src={PathMatchRoute('/')?PEHOLogo:PEHOLogoBlack} alt="Navbar Logo" />
           </div>
           <div className="navLinks-box">
             <a 
             href={'/'}
-            className={'text-lg'}>
+            className={PathMatchRoute('/')? 'text-white active-link':'text-black'}>
             Home</a>
 
             <a 
             href={'/about-us'}
-            className={'text-lg'}>
+            className={PathMatchRoute('/')? 'text-white':'text-black'}>
             About us</a>
 
             <a 
             href={'/contact-us'}
-            className={'text-lg'}>
+            className={PathMatchRoute('/')? 'text-white':'text-black'}>
             Contact us</a>
           </div>
         </div>
