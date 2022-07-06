@@ -1,4 +1,4 @@
-import '../Style/footer.css'
+import "../Style/footer.css";
 import { Fragment } from "react";
 import PEHOLogoWhite from "../assets/PNG/PEHOLogo_White.png";
 import facebookIcon from "../assets/SMicon/facebookIcon.png";
@@ -10,11 +10,12 @@ import youtubeIcon from "../assets/SMicon/youtubeIcon.png";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="footer-container bg-primary mt-40">
-
+      <div className="footer-container bg-primary">
         <div className="footer-logo-box">
-          <img src={PEHOLogoWhite} alt="Footer Logo" />
-          <h2 className='text-xl'>CONTACT WITH US</h2>
+          <div className="footer-logo">
+            <img src={PEHOLogoWhite} alt="Footer Logo" />
+          </div>
+          <h2 className="text-xl text-white">CONTACT WITH US</h2>
           <div className="footer-socialMediaIcons-box flex">
             <img src={facebookIcon} alt="Facebook icon" />
             <img src={twitterIcon} alt="Twitter icon" />
@@ -30,7 +31,7 @@ const Footer = () => {
           <a href="/about-us">Our team</a>
         </div>
         {/* Support Link */}
-        <div className="support-links-box2 flex flex-col">
+        <div className="support-links-box flex flex-col">
           <a href="/empower-us">Empower women</a>
           <a href="/empower-us">Empower Health</a>
         </div>
