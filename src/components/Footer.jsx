@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={PEHOLogoWhite} alt="Footer Logo" />
           </div>
-          <h2 className="text-xl text-white">CONTACT WITH US</h2>
+          <h2 className="footer-connect-text text-white">CONTACT WITH US</h2>
           <div className="footer-socialMediaIcons-box flex">
             <img src={facebookIcon} alt="Facebook icon" />
             <img src={twitterIcon} alt="Twitter icon" />
@@ -25,16 +25,19 @@ const Footer = () => {
           </div>
         </div>
         {/* Support Link */}
-        <div className="support-links-box flex flex-col">
+        <div className="support-links-box">
           <a href="/contact-us">Message us</a>
           <a href="/about-us">Know more about us</a>
           <a href="/about-us">Our team</a>
         </div>
         {/* Support Link */}
-        <div className="support-links-box flex flex-col">
+        <div className="support-links-box">
           <a href="/empower-us">Empower women</a>
           <a href="/empower-us">Empower Health</a>
         </div>
+      </div>
+      <div className="mobile-footer-container bg-primary">
+
       </div>
     </Fragment>
   );

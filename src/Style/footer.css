@@ -4,7 +4,6 @@
   width: 100vw;
   justify-content: space-between;
   padding: 5em;
-
 }
 
 .footer-logo-box{
@@ -27,4 +26,25 @@
   line-height: 2em;
   color: white;
   font-weight: 200;
+}
+.support-links-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-connect-text{
+  font-size:larger;
+}
+.mobile-footer-container{
+  visibility: hidden;
+}
+
+@media (max-width: 500px) {
+  .footer-container{
+    visibility: hidden;
+  }
+  .mobile-footer-container{
+    visibility: visible;
+    width: 100vw;
+  }
+  
 }
