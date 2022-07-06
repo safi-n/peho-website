@@ -26,18 +26,22 @@ const Navbar = () => {
             <a 
             href={'/about-us'}
             className={PathMatchRoute('/')? 'text-white':'text-black'}>
-            About us</a>
+            <span className={PathMatchRoute('/about-us')? 'active-link': ''}>About us</span></a>
 
             <a 
             href={'/contact-us'}
             className={PathMatchRoute('/')? 'text-white':'text-black'}>
-            Contact us</a>
+            <span className={PathMatchRoute('/contact-us')? 'active-link': ''}>Contact us</span></a>
           </div>
         </div>
+
         {/* Mobile Version */}
         <div className="mobile-navbar-box">
           <div className="mobile-navlogo-box">
             <img src={PEHOLogo} alt="" />
+          </div>
+          <div className="burger-menu-box">
+            <div className="burger-bar"></div>
           </div>
         </div>
       </div>

@@ -6,7 +6,6 @@
   font-weight: 300;
 }
 
-.active-link:hover{
+.active-link{
   font-weight: bold;
-  border-bottom: 3px solid black
 }
