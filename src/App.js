@@ -4,14 +4,16 @@ import HomePage from './Pages/HomePage'
 import AboutUs from './Pages/AboutUs'
 import ContactUs from './Pages/ContactUs'
 import Empower from './Pages/Empower'
+import Navbar from "./components/Navbar";
 function App() {
   return <div className="App">
     <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route to='/' element={<HomePage/>}/>
-        <Route to='/' element={<AboutUs/>}/>
-        <Route to='/' element={<ContactUs/>}/>
-        <Route to='/' element={<Empower/>}/>
+        <Route to='/about-us' element={<AboutUs/>}/>
+        <Route to='/contact-us' element={<ContactUs/>}/>
+        <Route to='/empower' element={<Empower/>}/>
       </Routes>
     </BrowserRouter>
   </div>;

@@ -1,0 +1,18 @@
+.navbar-box {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: #31a0da;
+  padding: 1em;
+  align-items: center;
+}
+
+.navlogo-box img {
+  height: 4em;
+  margin-right: 3em;
+  margin-left: 5em;
+}
+
+.navLinks-box a{
+  margin-right: 2em;
+}
