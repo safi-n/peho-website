@@ -1,8 +1,10 @@
-import React from 'react'
+import {Fragment} from 'react'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      
+    </div>
   )
 }
 

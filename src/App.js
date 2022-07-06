@@ -5,6 +5,7 @@ import AboutUs from './Pages/AboutUs'
 import ContactUs from './Pages/ContactUs'
 import Empower from './Pages/Empower'
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 function App() {
   return <div className="App">
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route to='/contact-us' element={<ContactUs/>}/>
         <Route to='/empower' element={<Empower/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </div>;
 }
