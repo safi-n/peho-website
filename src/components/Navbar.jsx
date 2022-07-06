@@ -51,13 +51,13 @@ const Navbar = () => {
         {/* Mobile Menu Slider */}
         {showMenu ?
         <div className='mobile-slideMenu-box'>
-          <div className="slideMenu-link">
+          <div className="slideMenu-link text-xl">
             <a href="/">Home</a>
           </div>
-          <div className="slideMenu-link">
+          <div className="slideMenu-link text-xl">
             <a href="/about-us">About us</a>
           </div>
-          <div className="slideMenu-link">
+          <div className="slideMenu-link text-xl">
             <a href="/contact-us">Contact us</a>
           </div>
         </div> : null}
