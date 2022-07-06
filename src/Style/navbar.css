@@ -1,3 +1,8 @@
+.navbar-container {
+  top: 0em;
+  left: 0em;
+  position: fixed;
+}
 .navbar-box {
   display: flex;
   flex-direction: row;
@@ -26,8 +31,23 @@
   }
 
   .mobile-navbar-box{
+    position: fixed;
     visibility: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    top: 0em;
+    width: 100vw;
   }
-
-  
+  .mobile-navlogo-box img {
+    height: 3em;
+  }
+  .burger-bar {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.3em
+  }
 }

@@ -1,6 +1,6 @@
 import '../Style/navbar.css'
 import {Fragment} from 'react'
-import { NavLink, useLocation, useNavigate } from 'react-router-dom'
+import { useLocation} from 'react-router-dom'
 import PEHOLogo from "../assets/PNG/PEHOLogo_White.png";
 import PEHOLogoBlack from "../assets/PNG/PEHOLogo_Orignal.png";
 const Navbar = () => {
@@ -36,11 +36,13 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Version */}
-        <div className="mobile-navbar-box">
+        <div className="mobile-navbar-box bg-primary">
           <div className="mobile-navlogo-box">
             <img src={PEHOLogo} alt="" />
           </div>
           <div className="burger-menu-box">
+            <div className="burger-bar"></div>
+            <div className="burger-bar"></div>
             <div className="burger-bar"></div>
           </div>
         </div>
