@@ -45,6 +45,7 @@
   .mobile-footer-container{
     visibility: visible;
     width: 100vw;
+    height: 10em;
   }
-  
+
 }
