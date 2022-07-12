@@ -36,8 +36,19 @@ const Footer = () => {
           <a href="/empower-us">Empower Health</a>
         </div>
       </div>
+      {/* Mobile-version  */}
       <div className="mobile-footer-container bg-primary">
-
+        <div className="mobile-footer-logo">
+          <img src={PEHOLogoWhite} alt="Footer Logo" />
+        </div>
+        <h2 className="footer-connect-text text-white">CONTACT WITH US</h2>
+        <div className="mobile-footer-socialMediaIcons-box flex">
+          <img src={facebookIcon} alt="Facebook icon" />
+          <img src={twitterIcon} alt="Twitter icon" />
+          <img src={instagramIcon} alt="Instagram icon" />
+          <img src={youtubeIcon} alt="Youtube icon" />
+          <img src={linkedinIcon} alt="LinkedIn icon" />
+        </div>
       </div>
     </Fragment>
   );
