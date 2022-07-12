@@ -28,13 +28,21 @@ const HomePage = () => {
             <div className="hero-mockup">
               <img src={VideoHero} alt="Video Hero" />
             </div>
+            <div className="hero-mockup">
+              <img src={VideoHero} alt="Video Hero" />
+            </div>
+            <div className="hero-mockup">
+              <img src={VideoHero} alt="Video Hero" />
+            </div>
+            <div className="hero-mockup">
+              <img src={VideoHero} alt="Video Hero" />
+            </div>
           </div>
           <div className="hero-mobile-mockup">
-            
           </div>
         </div>
       </div>
-    </Fragment>
+      </Fragment>
   );
 };
 

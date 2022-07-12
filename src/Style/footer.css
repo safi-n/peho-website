@@ -1,5 +1,4 @@
 .footer-container{
-  border: 4px solid black;
   display: flex;
   flex-direction: row;
   width: 100vw;
