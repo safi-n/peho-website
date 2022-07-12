@@ -4,7 +4,7 @@ import "../Style/home.css";
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="homepage-container h-screen">
+      <div className="homepage-container">
         <div className="homepage-hero-container">
           <div className="hero-content-box">
             <h2 className="text-black">WHAT IS PEHO?</h2>
