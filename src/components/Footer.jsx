@@ -10,7 +10,7 @@ import youtubeIcon from "../assets/SMicon/youtubeIcon.png";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="footer-container bg-primary">
+      <div className="footer-container bg-primary ">
         <div className="footer-logo-box">
           <div className="footer-logo">
             <img src={PEHOLogoWhite} alt="Footer Logo" />
