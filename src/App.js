@@ -5,7 +5,7 @@ import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import Empower from "./Pages/Empower";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Footer from "./components/Shared/footer/Footer";
 function App() {
   return (
       <div className="App h-screen">
@@ -18,7 +18,7 @@ function App() {
             <Route path="/empower" element={<Empower />} />
           </Routes>
         </Router>
-          <Footer />
+          <Footer/>
       </div>
   );
 }
