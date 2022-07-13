@@ -2,6 +2,7 @@
   top: 0em;
   left: 0em;
   position: fixed;
+  height: fit-content;
 }
 .navbar-box {
   display: flex;
@@ -9,11 +10,11 @@
   width: 100vw;
   padding: 1em;
   align-items: center;
-  z-index: 20;
+  height: em;
 }
 
 .navlogo-box img {
-  height: 4em;
+  height: 3.5em;
   margin-right: 3em;
   margin-left: 5em;
 }
