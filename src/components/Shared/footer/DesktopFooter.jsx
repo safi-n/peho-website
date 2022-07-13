@@ -1,11 +1,4 @@
-import PEHOLogoWhite from "../../../assets/PNG/PEHOLogo_White.png";
-import facebookIcon from "../../../assets/SMicon/facebookIcon.png";
-import twitterIcon from "../../../assets/SMicon/twitterIcon.png";
-import instagramIcon from "../../../assets/SMicon/instagramIcon.png";
-import linkedinIcon from "../../../assets/SMicon/linkedin-inIcon.png";
-import youtubeIcon from "../../../assets/SMicon/youtubeIcon.png";
-
-const DesktopFooter = () => {
+const DesktopFooter = ({PEHOLogoWhite, facebookIcon, linkedinIcon, instagramIcon, youtubeIcon, twitterIcon}) => {
   return (
     <div className="footer-container bg-primary ">
         <div className="footer-logo-box">
