@@ -9,20 +9,18 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <Fragment>   
-    <div className="App">
-      <Router>
+      <div className="App">
+        <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/empower" element={<Empower />} />
-        </Routes>
-      <Footer />
-      </Router>
-    </div>
-    </Fragment> 
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/empower" element={<Empower />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
   );
 }
 

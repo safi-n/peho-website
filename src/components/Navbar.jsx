@@ -13,8 +13,8 @@ const Navbar = () => {
   }
   return (
     <Fragment>
-      <div className='navbar-container z-20'>
-        <div className={PathMatchRoute('/')? "navbar-box bg-primary": 'navbar-box bg-white'}>
+      <div className='navbar-container'>
+        <div className={PathMatchRoute('/')? "navbar-box bg-primary h-28": 'navbar-box bg-white'}>
           <div className="navlogo-box">
             <img src={PathMatchRoute('/')?PEHOLogo:PEHOLogoBlack} alt="Navbar Logo" />
           </div>
