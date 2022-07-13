@@ -14,11 +14,11 @@ import ourPartnerIcon3 from "../assets/PNG/ourPartnerIcon3.png";
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="homepage-container h-screen p-24">
+      <div className="homepage-container">
         <div className="homepage-hero-container">
           <div className="hero-content-box">
-            <h2 className="text-black">WHAT IS PEHO?</h2>
-            <p>
+            <h2 className="text-white font-medium text-4xl mb-10">WHAT IS PEHO?</h2>
+            <p className="text-lg text-white leading-8 font-light">
               PEHO is a Non governmental Non- profitable and Non- for profit
               organization with an Non independent legal identity. PEHO Aims to
               serve people and contribute into Afghanistan’s rehabilitation.
@@ -28,17 +28,9 @@ const HomePage = () => {
             <div className="hero-mockup">
               <img src={VideoHero} alt="Video Hero" />
             </div>
-            <div className="hero-mockup">
-              <img src={VideoHero} alt="Video Hero" />
-            </div>
-            <div className="hero-mockup">
-              <img src={VideoHero} alt="Video Hero" />
-            </div>
-            <div className="hero-mockup">
-              <img src={VideoHero} alt="Video Hero" />
-            </div>
           </div>
-          <div className="hero-mobile-mockup">
+
+          <div className="hero-mobile-mockup hidden">
           </div>
         </div>
       </div>

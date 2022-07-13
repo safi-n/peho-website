@@ -17,8 +17,8 @@ function App() {
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/empower" element={<Empower />} />
           </Routes>
-          <Footer />
         </Router>
+          <Footer />
       </div>
   );
 }
