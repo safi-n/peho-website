@@ -11,15 +11,15 @@ function App() {
   return (
       <div className="App h-screen">
         <Router>
-        <Navbar />
+          <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/empower" element={<Empower />} />
           </Routes>
-        </Router>
           <Footer/>
+        </Router>
       </div>
   );
 }
