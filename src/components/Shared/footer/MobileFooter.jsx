@@ -1,3 +1,5 @@
+// import { Home } from "react-feather"
+
 const MobileFooter = ({PEHOLogoWhite, facebookIcon, linkedinIcon, instagramIcon, youtubeIcon, twitterIcon}) => {
   return (
     <div className="mobile-footer-container bg-primary md:hidden">
@@ -11,6 +13,7 @@ const MobileFooter = ({PEHOLogoWhite, facebookIcon, linkedinIcon, instagramIcon,
           <img src={instagramIcon} alt="Instagram icon" />
           <img src={youtubeIcon} alt="Youtube icon" />
           <img src={linkedinIcon} alt="LinkedIn icon" />
+          {/* <div><a href="https://google.com">{Home}</a></div> */}
         </div>
       </div>
   )
