@@ -5,20 +5,21 @@ import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import Empower from "./Pages/Empower";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Footer from "./components/Shared/footer/Footer";
+
 function App() {
   return (
       <div className="App h-screen">
         <Router>
-        <Navbar />
+          <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/empower" element={<Empower />} />
           </Routes>
+          <Footer/>
         </Router>
-          <Footer />
       </div>
   );
 }

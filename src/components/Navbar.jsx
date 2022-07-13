@@ -1,6 +1,6 @@
 import '../Style/navbar.css'
 import {Fragment, useState} from 'react'
-import { useLocation} from 'react-router-dom'
+import { Link, useLocation} from 'react-router-dom'
 import PEHOLogo from "../assets/PNG/PEHOLogo_White.png";
 import PEHOLogoBlack from "../assets/PNG/PEHOLogo_Orignal.png";
 const Navbar = () => {
@@ -19,20 +19,19 @@ const Navbar = () => {
             <img src={PathMatchRoute('/')?PEHOLogo:PEHOLogoBlack} alt="Navbar Logo" />
           </div>
           <div className="navLinks-box">
-            <a 
-            href={'/'}
-            className={PathMatchRoute('/')? 'text-white active-link':'text-black'}>
-            Home</a>
-
-            <a 
-            href={'/about-us'}
-            className={PathMatchRoute('/')? 'text-white':'text-black'}>
-            <span className={PathMatchRoute('/about-us')? 'active-link': ''}>About us</span></a>
-
-            <a 
-            href={'/contact-us'}
-            className={PathMatchRoute('/')? 'text-white':'text-black'}>
-            <span className={PathMatchRoute('/contact-us')? 'active-link': ''}>Contact us</span></a>
+            <Link to={'/'} >
+            <span className={PathMatchRoute('/')? 'text-white active-link':'text-black'}>Home</span>
+            </Link>
+            <Link to={'/about-us'}>
+            <span className={PathMatchRoute('/')? 'text-white':'text-black'}>
+              <span className={PathMatchRoute('/about-us')? 'active-link': ''}>About us</span>
+            </span>
+            </Link>
+            <Link to={'/contact-us'}>
+              <span className={PathMatchRoute('/')? 'text-white':'text-black'}>
+                <span className={PathMatchRoute('/contact-us')? 'active-link': ''}>Contact us</span>
+              </span>
+            </Link>
           </div>
         </div>
 
