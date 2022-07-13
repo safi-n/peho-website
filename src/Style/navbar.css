@@ -9,7 +9,7 @@
   width: 100vw;
   padding: 1em;
   align-items: center;
-  z-index: 2;
+  z-index: 20;
 }
 
 .navlogo-box img {

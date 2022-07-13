@@ -1,4 +1,5 @@
 import "./App.css";
+import { Fragment } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
@@ -8,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 function App() {
   return (
+    <Fragment>   
     <div className="App">
       <Router>
         <Navbar />
@@ -17,9 +19,10 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/empower" element={<Empower />} />
         </Routes>
-      </Router>
       <Footer />
+      </Router>
     </div>
+    </Fragment> 
   );
 }
 
