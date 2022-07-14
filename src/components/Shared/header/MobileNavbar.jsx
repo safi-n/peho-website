@@ -1,6 +1,6 @@
 import { useState} from 'react'
 import PEHOLogo from "../../../assets/PNG/PEHOLogo_White.png";
-import { MobileSlideMenu } from './MobileSlideMenu';
+import MobileSlideMenu from './MobileSlideMenu';
 
 const MobileNavbar = () => {
   const [showMenu, setShowMenu] = useState(false)
