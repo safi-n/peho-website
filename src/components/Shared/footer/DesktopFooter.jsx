@@ -1,6 +1,6 @@
 const DesktopFooter = ({PEHOLogoWhite, facebookIcon, linkedinIcon, instagramIcon, youtubeIcon, twitterIcon}) => {
   return (
-    <div className="footer-container bg-primary ">
+    <div className="footer-container bg-primary hidden md:block">
         <div className="footer-logo-box">
           <div className="footer-logo">
             <img src={PEHOLogoWhite} alt="Footer Logo" />

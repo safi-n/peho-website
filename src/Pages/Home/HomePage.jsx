@@ -5,11 +5,8 @@ import wwdPicture from "../../assets/JPG/wwdPicture.png";
 import wwaVisionIcon from "../../assets/PNG/wwa-vision.png";
 import wwaMissionIcon from "../../assets/PNG/wwa-mission.png";
 import wwaGoalIcon from "../../assets/PNG/wwa-goal.png";
-import ceoImage from "../../assets/PNG/ceoImage.png";
 import wwoAfgMap from "../../assets/PNG/wwoAfgMap.png";
 import ourPartnerIcon1 from "../../assets/PNG/ourPartnerIcon1.png";
-import ourPartnerIcon2 from "../../assets/PNG/ourPartnerIcon2.png";
-import ourPartnerIcon3 from "../../assets/PNG/ourPartnerIcon3.png";
 
 const HomePage = () => {
   return (
@@ -34,7 +31,7 @@ const HomePage = () => {
         <div className="wwdContainer flex items-center justify-center mt-40 mb-40">
         <div className="wwd-box flex flex-row items-center space-x-24">
           <div className="wwd-pic">
-            <img src={wwdPicture} alt="What we do pic" />
+            <img src={wwdPicture} alt="What we do" />
           </div>
           <div className="wwd-text w-96 leading-7">
             <h2 className="font-bold mb-4 text-4xl">
@@ -110,7 +107,7 @@ const HomePage = () => {
       <div className="wwo-container px-40 p-24 bg-gray-50 mb-36 bg-gray items-center">
         <div className="wwo-box flex flex-row justify-center space-x-40">
           <div className="wwo-afg-map ">
-            <img src={wwoAfgMap} alt="" className="h-80" />
+            <img src={wwoAfgMap} alt="afghan map" className="h-80" />
           </div>
           <div className="wwo-content w-96">
             <h2 className="text-4xl mb-12 font-bold">
@@ -123,7 +120,7 @@ const HomePage = () => {
               to implement activities aimed at reducing or removing barriers to
               business in Afghanistan. Harakat acts as a bridge between the
               Government of the Islamic Republic of Afghanistan (GoIRA) and the
-              private sector.{" "}
+              private sector.
             </p>
           </div>
         </div>
@@ -140,7 +137,7 @@ const HomePage = () => {
           <img
             src={ourPartnerIcon1}
             className="partnerIcon"
-            alt="Partner 1 image"
+            alt="Partner"
           />
         </div>
       </div>

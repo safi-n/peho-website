@@ -1,5 +1,5 @@
-import React from 'react'
 import PEHOLogo from "../../../assets/PNG/PEHOLogo_White.png";
+import PEHOLogoBlack from "../../../assets/PNG/PEHOLogo_Black.png";
 import { Link, useLocation } from "react-router-dom";
 
 const DesktopNavbar = () => {
@@ -10,7 +10,7 @@ const DesktopNavbar = () => {
     }
   };
   return (
-    <div className="container navbar-container">
+    <div className="container navbar-container hidden md:block">
         <div
           className={
             PathMatchRoute("/")

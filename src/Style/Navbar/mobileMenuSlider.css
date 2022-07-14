@@ -1,0 +1,44 @@
+
+  .mobile-navbar-box{
+    position: fixed;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    top: 0em;
+    width: 100vw;
+  }
+  .mobile-navlogo-box img {
+    height: 3em;
+  }
+  .burger-bar {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.3em
+  }
+
+  .mobile-slideMenu-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0em;
+    left: 0em;
+    height: 100vh;
+    width: 80vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 20;
+  }
+
+  .slideMenu-link {
+    padding: 1em;
+  }
+
+  .slideMenu-link:hover {
+    background-color: rgba(255, 255, 255, 0.269);
+  }
+  .slideMenu-link a {
+    color: white;
+  }
