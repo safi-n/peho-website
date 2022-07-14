@@ -11,7 +11,7 @@ import ourPartnerIcon1 from "../../assets/PNG/ourPartnerIcon1.png";
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="homepage-container">
+      <div className="homepage-container hidden md:block">
         <div className="homepage-hero-container">
           <div className="hero-content-box">
             <h2 className="text-white font-medium text-4xl mb-10">WHAT IS PEHO?</h2>

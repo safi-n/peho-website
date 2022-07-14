@@ -14,6 +14,19 @@
   height: 6em;
 }
 
+.burger-x-1 {
+  transform: rotate(45deg);
+  width: 35px;
+  height: 3px;
+  background-color: white;
+}
+.burger-x-2 {
+  transform: rotate(-45deg);
+  width: 35px;
+  height: 3px;
+  background-color: white;
+}
+
 .navlogo-box img {
   height: 3.5em;
   margin-right: 3em;
@@ -44,10 +57,23 @@
     top: 0em;
     width: 100vw;
   }
+
   .mobile-navlogo-box img {
     height: 3em;
   }
-  .burger-bar {
+  .burger-bar1 {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.3em
+  }
+  .burger-bar2 {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.3em
+  }
+  .burger-bar3 {
     width: 30px;
     height: 2px;
     background-color: rgb(255, 255, 255);

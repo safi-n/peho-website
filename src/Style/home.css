@@ -19,7 +19,9 @@
   width: 47em;
 }
 
-
-
-
+.mobile-hero-mockup{
+  background-image: url('../../src/assets/PNG/mobileHeroMockup.png');
+  height: 30em;
+  background-repeat: no-repeat;
+}
 /* Mobile version */

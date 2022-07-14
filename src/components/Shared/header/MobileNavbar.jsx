@@ -12,9 +12,9 @@ const MobileNavbar = () => {
           <img src={PEHOLogo} alt="" />
         </div>
         <div className="burger-menu-box" onClick={() => setShowMenu(!showMenu)}>
-          <div className="burger-bar"></div>
-          <div className="burger-bar"></div>
-          <div className="burger-bar"></div>
+          <div className={!showMenu ? "burger-bar1" : 'burger-x-1'}></div>
+          <div className={!showMenu ? "burger-bar2" : ''}></div>
+          <div className={!showMenu ? "burger-bar1" : 'burger-x-2'}></div>
         </div>
       </div>
       {showMenu ? <MobileSlideMenu/> : null}
