@@ -1,14 +1,12 @@
-import "../../../Style/navbar.css";
 import { useState} from 'react'
-const [showMenu, setShowMenu] = useState(false)
-import { Link, useLocation } from "react-router-dom";
 import PEHOLogo from "../../../assets/PNG/PEHOLogo_White.png";
+import { MobileSlideMenu } from './MobileSlideMenu';
 
 const MobileNavbar = () => {
-  const location = useLocation();
+  const [showMenu, setShowMenu] = useState(false)
   return (
-    <>
-      <div className="mobile-navbar-box bg-primary md:hidden">
+    <div className='md:hidden'>
+      <div className="mobile-navbar-box bg-primary">
         <div className="mobile-navlogo-box">
           <img src={PEHOLogo} alt="" />
         </div>
@@ -18,19 +16,8 @@ const MobileNavbar = () => {
           <div className="burger-bar"></div>
         </div>
       </div>
-      {showMenu ?
-        <div className='mobile-slideMenu-box fixed'>
-          <div className="slideMenu-link text-xl">
-            <Link href="/">Home</Link>
-          </div>
-          <div className="slideMenu-link text-xl">
-            <Link href="/about-us">About us</Link>
-          </div>
-          <div className="slideMenu-link text-xl">
-            <Link href="/contact-us">Contact us</Link>
-          </div>
-        </div> : null}
-    </>
+      {showMenu ? <MobileSlideMenu/> : null}
+    </div>
   );
 };
 

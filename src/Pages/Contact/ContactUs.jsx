@@ -32,7 +32,7 @@ const ContactUs = () => {
   return (
     <>
       {result ? (
-        <div className="result-msg flex h-screen bg-gray-100 fixed w-screen items-center justify-center">
+        <div className="result-msg flex fixed items-center justify-center">
           <div className="msg-box bg-white p-10 flex flex-col shadow-sm justify-center items-center">
             <p className=" text-black  text-lg mb-12">
               Your email is sent, we will reach to you soon
@@ -44,7 +44,7 @@ const ContactUs = () => {
         </div>
       ) 
       : (
-        <div className="container mt-32">
+        <div className="container mt-32 hidden md:block">
           <div className="contact-us-container h-screen flex flex-row space-x-20 items-center mb-20">
             <div className="form-container-contact-us p-12 flex flex-col ml-10">
               <div className="form-title-contact-us">
