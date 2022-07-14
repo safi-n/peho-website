@@ -1,8 +1,8 @@
-import '../Style/navbar.css'
+import '../../../Style/navbar.css'
 import {Fragment, useState} from 'react'
 import { Link, useLocation} from 'react-router-dom'
-import PEHOLogo from "../assets/PNG/PEHOLogo_White.png";
-import PEHOLogoBlack from "../assets/PNG/PEHOLogo_Orignal.png";
+import PEHOLogo from "../../../assets/PNG/PEHOLogo_White.png";
+import PEHOLogoBlack from "../../../assets/PNG/PEHOLogo_Orignal.png";
 const Navbar = () => {
   const location = useLocation()
   const [showMenu, setShowMenu] = useState(false)
@@ -49,7 +49,7 @@ const Navbar = () => {
       </div>
         {/* Mobile Menu Slider */}
         {showMenu ?
-        <div className='mobile-slideMenu-box'>
+        <div className='mobile-slideMenu-box fixed'>
           <div className="slideMenu-link text-xl">
             <a href="/">Home</a>
           </div>

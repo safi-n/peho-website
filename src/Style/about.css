@@ -1,0 +1,44 @@
+.watof-mockup {
+  background-image: url("../assets/PNG/watofMockupHero.png");
+  height: 18em;
+  width: 28em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0em;
+}
+.watof-title {
+  line-height: 1.4em;
+}
+
+/* PEHO Values */
+.value-box-image-accountabilty img {
+  width: 2.8em;
+}
+.value-box-image-afghanLed img {
+  width: 1.2em;
+}
+.value-box-image-equality img {
+  width: 2.8em;
+}
+.value-box-image-trust img {
+  width: 3em;
+}
+
+/* Our motive */
+.our-motive-mockup {
+  width: 30em;
+  background-image: url("../assets/PNG/ourMotiveMockup.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3em;
+  padding-left: 4em;
+}
+
+/* We are changing */
+.wac-mockup {
+  background-image: url("../assets/PNG/wacMockup.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30em;
+  height: 25em;
+}

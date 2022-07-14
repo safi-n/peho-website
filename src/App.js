@@ -4,7 +4,7 @@ import HomePage from "./Pages/Home/HomePage";
 import AboutUs from "./Pages/About/AboutUs";
 import ContactUs from "./Pages/Contact/ContactUs";
 import Empower from "./Pages/Empower/Empower";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Shared/header/Navbar";
 import Footer from "./components/Shared/footer/Footer";
 
 function App() {
