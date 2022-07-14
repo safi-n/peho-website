@@ -1,6 +1,7 @@
 import { useState} from 'react'
 import PEHOLogo from "../../../assets/PNG/PEHOLogo_White.png";
 import MobileSlideMenu from './MobileSlideMenu';
+import { motion } from "framer-motion"
 
 const MobileNavbar = () => {
   const [showMenu, setShowMenu] = useState(false)

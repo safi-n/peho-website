@@ -1,7 +1,7 @@
 import '../../../Style/Navbar/mobileMenuSlider.css'
 import { Link } from "react-router-dom"
 
-const MobileSlideMenu = ({onClick}) => {
+const MobileSlideMenu = () => {
   return (
     <>
       <div className='mobile-slideMenu-box fixed bg-bg-primary'>
