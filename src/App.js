@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./Pages/HomePage";
-import AboutUs from "./Pages/AboutUs";
-import ContactUs from "./Pages/ContactUs";
-import Empower from "./Pages/Empower";
+import HomePage from "./Pages/Home/HomePage";
+import AboutUs from "./Pages/About/AboutUs";
+import ContactUs from "./Pages/Contact/ContactUs";
+import Empower from "./Pages/Empower/Empower";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Shared/footer/Footer";
 
