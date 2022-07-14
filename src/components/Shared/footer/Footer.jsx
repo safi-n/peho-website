@@ -14,6 +14,7 @@ const Footer = () => {
     <>
       <DesktopFooter PEHOLogoWhite={PEHOLogoWhite} facebookIcon={facebookIcon} twitterIcon={twitterIcon} instagramIcon=
       {instagramIcon} linkedinIcon={linkedinIcon} youtubeIcon={youtubeIcon} />
+      
       <MobileFooter PEHOLogoWhite={PEHOLogoWhite} facebookIcon={facebookIcon} twitterIcon={twitterIcon} instagramIcon=
       {instagramIcon} linkedinIcon={linkedinIcon} youtubeIcon={youtubeIcon} />
     </>

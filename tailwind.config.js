@@ -14,6 +14,8 @@ module.exports = {
       'other-color': '#d34728',
       'bg-primary': '#7eb928',
       'bg-secondary': '#7eb928',
+      'gray': '#f5f5f5',
+
     }
   },
   plugins: [],
