@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const MobileNavbar = () => {
   const [showMenu, setShowMenu] = useState(false)
   return (
-    <div className='md:hidden'>
+    <div className='md:hidden mobile-navbar-container'>
       <div className="mobile-navbar-box bg-primary">
         <div className="mobile-navlogo-box">
           <img src={PEHOLogo} alt="" />

@@ -25,3 +25,9 @@
   background-repeat: no-repeat;
 }
 /* Mobile version */
+
+.mobile-wwd-pic{
+  width: 20.5em;
+  height: 11em;
+  background-size:contain;
+}
