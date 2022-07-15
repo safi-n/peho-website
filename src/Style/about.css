@@ -6,6 +6,13 @@
   background-size: contain;
   top: 0em;
 }
+.mobile-watof-mockup {
+  background-image: url("../assets/PNG/watofMockupHero.png");
+  height: 12em;
+  width: 19.5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .watof-title {
   line-height: 1.4em;
 }
@@ -41,4 +48,11 @@
   background-size: cover;
   width: 30em;
   height: 25em;
+}
+
+@media (min-width: 600px) {
+  
+  .mobile-peho-value-container{
+    z-index: -30;
+  }
 }
