@@ -91,13 +91,13 @@ const MobileContact = () => {
                 <textarea
                   name="user_message"
                   id="message"
-                  cols="30"
+                  cols="35"
                   rows="10"
-                  className="bg-white border border-gray-200 h-40"
+                  className="bg-white border border-gray-200 h-32"
                 ></textarea>
               </div>
               {/* submit */}
-              <div className="formButton mt-8 ml-20">
+              <div className="formButton mt-8 ml-14 mb-4">
                 <button
                   type="submit"
                   className="p-3 bg-bg-primary cursor-default text-white font-light"
