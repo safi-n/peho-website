@@ -12,9 +12,9 @@ import wacPic from "../../assets/PNG/wacPic.png";
 const MobileAbout = () => {
   return (
     <>
-      <div className="mobile-container w-screen md:hidden">
-        <div className="watof-container h-screen border flex flex-col items-center p-2">
-          <div className="mobile-watof-content mb-12 mt-40">
+      <div className="mobile-container w-screen md:hidden ">
+        <div className="watof-container h-screen flex flex-col items-center p-2">
+          <div className="mobile-watof-content mb-12 mt-40 p-5">
             <h2 className="mobile-watof-title text-xl mb-4 leading-7 font-bold">
               WE ARE TEAM <br /> OF
               <span className="text-secondary font-bold"> PROFESSIONALS</span>
@@ -108,16 +108,16 @@ const MobileAbout = () => {
         </div>
 
         {/* -------------- OUR MOTIVE AREA */}
-        <div className="mobile-our-motive-container flex flex-col items-center">
+        <div className="mt-9 mobile-our-motive-container flex flex-col p-6 items-center">
           {/* Title area */}
           <div className="mobile-ou-motive-title">
-            <h2 className="text-4xl mb-28">
-              OUR <span className="mainColor">MOTIVE</span>
+            <h2 className="text-xl font-bold mb-8">
+              OUR <span className="text-secondary font-bold">MOTIVE</span>
             </h2>
           </div>
           {/* Content area */}
-          <div className="mobile-our-motive-box flex flex-row w-screen justify-center items-center space-x-20">
-            <div className="mobile-our-motive-content w-96 ">
+          <div className="mobile-our-motive-box flex flex-col justify-center items-center space-y-12">
+            <div className="mobile-our-motive-content">
               <p className="font-light">
                 PEHO is responsible of facilitating, learning or the acquisition
                 of knowledge, skills, values, moral, beliefs, habits and
@@ -134,13 +134,10 @@ const MobileAbout = () => {
         </div>
 
         {/* WE ARE CHANGING */}
-        <div className="mobile-wac-container flex flex-row mt-52 space-x-20 items-center">
-          <div className="mobile-wac-mockup p-3">
-            <img src={wacPic} alt="" />
-          </div>
-          <div className="mobile-wac-content w-2/5">
-            <h2 className="text-4xl mb-5">
-              WE ARE <span className="mainColor">CHANGING</span>
+        <div className="mobile-wac-container flex flex-col p-6 space-y-8 items-center">
+          <div className="mobile-wac-content ">
+            <h2 className="text-xl font-bold mb-5 text-center">
+              WE ARE <span className="text-secondary font-bold">CHANGING</span>
             </h2>
             <p className="font-light">
               To transform Afghanistan from a developing to a developed country,
@@ -149,6 +146,9 @@ const MobileAbout = () => {
               registered as People Empathy House Organization to contribute to
               transformation with the assistance of donors and other partners.
             </p>
+          </div>
+          <div className="mobile-wac-mockup p-2">
+            <img src={wacPic} alt="wac mockup" />
           </div>
         </div>
       </div>

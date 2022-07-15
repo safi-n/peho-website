@@ -56,3 +56,18 @@
     z-index: -30;
   }
 }
+.mobile-our-motive-mockup {
+  width: 22em;
+  background-image: url("../assets/PNG/mobile-OurMotiveMockup.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5em;
+  padding-left: 4.6em;
+}
+.mobile-wac-mockup {
+  background-image: url("../assets/PNG/mobile-wacMockup.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 17em;
+}
