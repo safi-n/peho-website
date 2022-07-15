@@ -14,12 +14,12 @@ const MobileAbout = () => {
     <>
       <div className="mobile-container w-screen md:hidden ">
         <div className="watof-container h-screen flex flex-col items-center p-2">
-          <div className="mobile-watof-content mb-12 mt-40 p-5">
-            <h2 className="mobile-watof-title text-xl mb-4 leading-7 font-bold">
+          <div className="mobile-watof-content mb-2 mt-24 p-5">
+            <h2 className="mobile-watof-title text-xl mb-2 leading-7 font-bold">
               WE ARE TEAM <br /> OF
               <span className="text-secondary font-bold"> PROFESSIONALS</span>
             </h2>
-            <p className="mobile-watof-paragraf font-light leading-6 text-xs">
+            <p className="mobile-watof-paragraf font-light leading-7 text-sm">
               all members of PEHO are expert and innovative Afghans they have
               educated and entitled by diploma. PEHO member are people who have
               always had enough credibility in their work environment and social
@@ -47,24 +47,22 @@ const MobileAbout = () => {
           </div>
         </div>
 
-        <div className="mobile-peho-value-container -z-50 flex flex-col items-center">
+        <div className="mobile-peho-value-container mt-6 flex flex-col items-center">
           {/* Title */}
-          <div className="mobile-peho-value-title mt-4">
+          <div className="mobile-peho-value-title">
             <h2 className="text-xl font-bold">
               PEHO's <span className="text-secondary font-bold">VALUE</span>
             </h2>
           </div>
           {/* ------------------------ BOXES */}
-          <div className="mobile-value-boxes flex flex-col space-y-6 p-5">
+          <div className="mobile-value-boxes flex flex-col space-y-7 p-5">
             {/* Accountability */}
             <div className="mobile-value-box-image-accountabilty bg-white drop-shadow-md p-3">
               <div className="boxes-col flex items-center space-x-6">
                 <img src={accountabilityIcon} alt="" className="h-9 mb-4" />
-                <h2 className="text-lg text-other-color">
-                  Accountability
-                </h2>
+                <h2 className="text-lg text-other-color">Accountability</h2>
               </div>
-              <p className="font-light text-xs">
+              <p className="font-light text-xs leading-6">
                 PEHO Follow the fact and condition of being responsible of
                 accountability in all its deals and relationships.
               </p>
@@ -76,19 +74,19 @@ const MobileAbout = () => {
                 <img src={trustIcon} alt="" className="h-6 mb-4" />
                 <h2 className="text-lg mb-2 text-other-color">Trust</h2>
               </div>
-              <p className="font-light text-xs">
+              <p className="font-light text-xs leading-6">
                 PEHO’s impact and its well-known brand as a trusted organization
                 is our most treasured asset.
               </p>
             </div>
             <div className="mobile-value-box-image-equality p-3 bg-white drop-shadow-md">
               <div className="boxes-col flex items-center space-x-7">
-              <img src={equalIcon} alt="" className="h-11 mb-4" />
-              <h2 className="text-lg mb-2 text-other-color">
-                Equal opportunities
-              </h2>
+                <img src={equalIcon} alt="" className="h-11 mb-4" />
+                <h2 className="text-lg mb-2 text-other-color">
+                  Equal opportunities
+                </h2>
               </div>
-              <p className="font-light text-xs">
+              <p className="font-light text-xs leading-6">
                 PEHO has a nondiscriminatory policy for internal and external
                 relationships.
               </p>
@@ -96,10 +94,14 @@ const MobileAbout = () => {
             {/* Afghan Led */}
             <div className="mobile-value-box-image-afghanLed bg-white drop-shadow-md p-3">
               <div className="boxes-col flex items-center space-x-9">
-              <img src={afghanIcon} alt="afghan Icon" className="h-11 mb-4 ml-4" />
-              <h2 className="text-lg mb-2 text-other-color">Afghan Led</h2>
+                <img
+                  src={afghanIcon}
+                  alt="afghan Icon"
+                  className="h-11 mb-4 ml-4"
+                />
+                <h2 className="text-lg mb-2 text-other-color">Afghan Led</h2>
               </div>
-              <p className="font-light text-xs">
+              <p className="font-light text-xs leading-6">
                 PEHO is an Afghan-led and Afghan-managed organization to help
                 Afghan women with health problems.
               </p>
@@ -116,9 +118,9 @@ const MobileAbout = () => {
             </h2>
           </div>
           {/* Content area */}
-          <div className="mobile-our-motive-box flex flex-col justify-center items-center space-y-12">
-            <div className="mobile-our-motive-content">
-              <p className="font-light">
+          <div className="mobile-our-motive-box flex flex-col justify-center items-center space-y-12 ">
+            <div className="mobile-our-motive-content p-2">
+              <p className="font-light text-sm leading-7">
                 PEHO is responsible of facilitating, learning or the acquisition
                 of knowledge, skills, values, moral, beliefs, habits and
                 personal development of Afghan people. Through vocational
@@ -139,7 +141,7 @@ const MobileAbout = () => {
             <h2 className="text-xl font-bold mb-5 text-center">
               WE ARE <span className="text-secondary font-bold">CHANGING</span>
             </h2>
-            <p className="font-light">
+            <p className="font-light text-sm leading-7">
               To transform Afghanistan from a developing to a developed country,
               several innovative and experienced Afghans joined together under a
               non-governmental, non-political, and non-profitable organization

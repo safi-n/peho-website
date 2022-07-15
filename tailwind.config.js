@@ -15,6 +15,7 @@ module.exports = {
       'bg-primary': '#7eb928',
       'bg-secondary': '#7eb928',
       'gray': '#f5f5f5',
+      'gray-400': '#363636',
 
     }
   },
