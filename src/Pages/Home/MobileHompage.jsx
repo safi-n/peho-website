@@ -1,11 +1,8 @@
-import React from "react";
 import VideoHero from "../../assets/PNG/videoHero.png";
 import wwdPicture from "../../assets/JPG/wwdPicture.png";
 import wwaVisionIcon from "../../assets/PNG/wwa-vision.png";
 import wwaMissionIcon from "../../assets/PNG/wwa-mission.png";
 import wwaGoalIcon from "../../assets/PNG/wwa-goal.png";
-import wwoAfgMap from "../../assets/PNG/wwoAfgMap.png";
-import ourPartnerIcon1 from "../../assets/PNG/ourPartnerIcon1.png";
 
 const MobileHompage = () => {
   return (

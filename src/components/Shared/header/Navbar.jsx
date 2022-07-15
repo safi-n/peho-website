@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../../../Style/navbar.css";
 import DesktopNavbar from "./DesktopNavbar";
 import MobileNavbar from "./MobileNavbar";

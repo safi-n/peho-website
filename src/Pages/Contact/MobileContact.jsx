@@ -1,6 +1,4 @@
 import React, { useState, useRef } from "react";
-import { Link } from "react-router-dom";
-import contactUsImg from "../../assets/PNG/contactUsImg.png";
 import emailjs from "@emailjs/browser";
 import EmailMessage from "../../components/other/EmailMessage";
 
