@@ -136,9 +136,9 @@ const MobileAbout = () => {
         </div>
 
         {/* WE ARE CHANGING */}
-        <div className="mobile-wac-container flex flex-col p-4 space-y-8 items-center">
-          <div className="mobile-wac-content ">
-            <h2 className="text-xl font-bold mb-5 text-center">
+        <div className="mobile-wac-container flex mb-8 flex-col p-4 items-center">
+          <div className="mobile-wac-content mb-7">
+            <h2 className="text-xl font-bold text-center mb-5">
               WE ARE <span className="text-secondary font-bold">CHANGING</span>
             </h2>
             <p className="font-light text-sm leading-7">
@@ -149,9 +149,9 @@ const MobileAbout = () => {
               transformation with the assistance of donors and other partners.
             </p>
           </div>
-          <div className="mobile-wac-mockup p-1">
-            <img src={wacPic} alt="wac mockup" />
-          </div>
+        <div className="mobile-wac-mockup p-2 ">
+          <img src={wacPic} alt="wac mockup" />
+        </div>
         </div>
       </div>
     </>
