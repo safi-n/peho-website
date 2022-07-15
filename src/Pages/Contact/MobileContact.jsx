@@ -42,7 +42,7 @@ const MobileContact = () => {
           <div className="mobile-form-contact-us shadow-lg flex items-center mb-8">
             <form
               onSubmit={onSubmit}
-              className="contactUsForm  mt-10 p-3 mx-auto"
+              className="mobile-contactUsForm  mt-10 p-1 mx-auto"
               ref={form}
             >
               <div className="input-field-text flex flex-col">
@@ -54,7 +54,7 @@ const MobileContact = () => {
                   type="text"
                   name="user_name"
                   id="name"
-                  className="text-input p-2 border"
+                  className="text-input p-1 border"
                   required
                 />
               </div>
@@ -67,7 +67,7 @@ const MobileContact = () => {
                   type="email"
                   id="email"
                   name="user_email"
-                  className="text-input p-2 border"
+                  className="text-input p-1 border"
                   required
                 />
               </div>
@@ -80,7 +80,7 @@ const MobileContact = () => {
                   type="text"
                   id="phoneNumber"
                   name="user_phone"
-                  className="text-input p-2 border"
+                  className="text-input p-1 border"
                 />
               </div>
               {/* message */}
