@@ -149,9 +149,9 @@ const MobileAbout = () => {
               transformation with the assistance of donors and other partners.
             </p>
           </div>
-        <div className="mobile-wac-mockup p-2 mb-9  ">
-          <img src={wacPic} alt="wac mockup" />
         </div>
+        <div className="mobile-wac-mockup p-2 mb-9 flex items-center mx-auto">
+          <img src={wacPic} alt="wac mockup" />
         </div>
       </div>
     </>
