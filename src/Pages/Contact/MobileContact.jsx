@@ -97,7 +97,7 @@ const MobileContact = () => {
                 ></textarea>
               </div>
               {/* submit */}
-              <div className="formButton mt-8 ml-14 mb-4">
+              <div className="formButton mt-8 ml-20 mb-4">
                 <button
                   type="submit"
                   className="p-3 bg-bg-primary cursor-default text-white font-light"
