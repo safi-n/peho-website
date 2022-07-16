@@ -1,6 +1,6 @@
 import { useState} from 'react'
 import PEHOLogo from "../../../assets/PNG/PEHOLogo_White.png";
-import MobileSlideMenu from './MobileSlideMenu';
+import { Link } from 'react-router-dom';
 
 const MobileNavbar = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -16,7 +16,19 @@ const MobileNavbar = () => {
           <div className={!showMenu ? "burger-bar1" : 'burger-x-2'}></div>
         </div>
       </div>
-      {showMenu ? <MobileSlideMenu/> : null}
+      {showMenu ? 
+      <div className='mobile-slideMenu-box fixed bg-bg-primary'>
+      <div className="slideMenu-link text-xl" onClick={() => setShowMenu(!showMenu)}>
+        <Link to="/">Home</Link>
+      </div>
+      <div className="slideMenu-link text-xl" onClick={() => setShowMenu(!showMenu)}>
+        <Link to="/about-us">About us</Link>
+      </div>
+      <div className="slideMenu-link text-xl" onClick={() => setShowMenu(!showMenu)}>
+        <Link to="/contact-us">Contact us</Link>
+      </div>
+    </div>
+      : null}
     </div>
   );
 };
