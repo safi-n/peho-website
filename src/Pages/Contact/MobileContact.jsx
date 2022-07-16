@@ -91,7 +91,7 @@ const MobileContact = () => {
                 <textarea
                   name="user_message"
                   id="message"
-                  cols="35"
+                  cols="25"
                   rows="10"
                   className="bg-white border border-gray-200 h-32"
                 ></textarea>
