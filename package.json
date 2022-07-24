@@ -1,6 +1,7 @@
 {
   "name": "peho-website",
   "version": "0.1.0",
+  "homepage": "https://pe-ho.org",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
