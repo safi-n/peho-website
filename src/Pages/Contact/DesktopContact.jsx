@@ -11,7 +11,7 @@ const DesktopContact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-        "service_h4dey33",
+        "service_zsp4hsi",
         "template_t19eoy8",
         form.current,
         "5Zt16kyRZxZpPmFJ4"
