@@ -136,7 +136,7 @@ const HomePage = () => {
             </h2>
           </div>
           <div className="our-partner-image flex flex-row space-x-32">
-            <img src={ourPartnerIcon1} className="partnerIcon" alt="Partner" />
+            <img src={ourPartnerIcon1} className="partnerIcon h-40" alt="Partner" />
           </div>
         </div>
       </div>
