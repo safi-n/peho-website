@@ -105,7 +105,7 @@ const HomePage = () => {
         </div>
 
         {/* ------------ WHERE WE OPERATE */}
-        <div className="wwo-container px-40 p-24 bg-gray-50 mb-36 bg-gray items-center">
+        {/* <div className="wwo-container px-40 p-24 bg-gray-50 mb-36 bg-gray items-center">
           <div className="wwo-box flex flex-row justify-center space-x-40">
             <div className="wwo-afg-map ">
               <img src={wwoAfgMap} alt="afghan map" className="h-80" />
@@ -126,7 +126,7 @@ const HomePage = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* PARTNER */}
         <div className="our-partner-container flex flex-col items-center mb-36">
