@@ -1,12 +1,12 @@
-import watofPic1 from "../../assets/PNG/watofPic1.png";
-import watofPic2 from "../../assets/PNG/watofPic2.png";
-import watofPic3 from "../../assets/PNG/watofPic3.png";
+import watofPic1 from "../../assets/Staff IMG/IMG_9398.JPG";
+import watofPic2 from "../../assets/Staff IMG/IMG_9396.JPG";
+import watofPic3 from "../../assets/Staff IMG/IMG_9403.JPG";
 import afghanIcon from "../../assets/PNG/AfghanIcon.png";
 import accountabilityIcon from "../../assets/PNG/AccountabiltyIcon-01.png";
 import trustIcon from "../../assets/PNG/handshakeIcon-01.png";
 import equalIcon from "../../assets/PNG/EqualOpportunity-01.png";
-import ourMotivePic from "../../assets/PNG/ourMotivepic.png";
-import wacPic from "../../assets/PNG/wacPic.png";
+import ourMotivePic from "../../assets/Staff IMG/IMG_9399.JPG";
+import wacPic from "../../assets/Staff IMG/IMG_9402.JPG";
 
 const DesktopAbout = () => {
   return (
@@ -133,7 +133,7 @@ const DesktopAbout = () => {
       {/* WE ARE CHANGING */}
       <div className="wac-container flex flex-row mt-52 space-x-20 items-center">
         <div className="wac-mockup p-3">
-          <img src={wacPic} alt="" />
+          <img src={wacPic} alt="" className=" wacPic-image"/>
         </div>
         <div className="wac-content w-2/5">
           <h2 className="text-4xl mb-5">

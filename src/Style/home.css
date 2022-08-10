@@ -31,3 +31,11 @@
   height: 11em;
   background-size:contain;
 }
+
+.hero-image {
+  width: 60em;
+}
+
+.wwd-image{
+  width: 40em;
+}

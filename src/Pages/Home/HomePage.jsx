@@ -1,6 +1,6 @@
 import "../../Style/home.css";
-import VideoHero from "../../assets/PNG/videoHero.png";
-import wwdPicture from "../../assets/JPG/wwdPicture.png";
+import StaffImg from '../../assets/Staff IMG/IMG_9396.JPG'
+import wwdPicture from "../../assets/Staff IMG/IMG_9400.JPG";
 import wwaVisionIcon from "../../assets/PNG/wwa-vision.png";
 import wwaMissionIcon from "../../assets/PNG/wwa-mission.png";
 import wwaGoalIcon from "../../assets/PNG/wwa-goal.png";
@@ -24,7 +24,7 @@ const HomePage = () => {
           </div>
           <div className="hero-visual-box">
             <div className="hero-mockup">
-              <img src={VideoHero} alt="Video Hero" className="mt-11" />
+              <img src={StaffImg} alt="Video Hero" className="mt-11 hero-image" />
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ const HomePage = () => {
         <div className="wwdContainer flex items-center justify-center mt-40 mb-40">
           <div className="wwd-box flex flex-row items-center space-x-24">
             <div className="wwd-pic">
-              <img src={wwdPicture} alt="What we do" />
+              <img src={wwdPicture} alt="What we do" className="wwd-image"/>
             </div>
             <div className="wwd-text w-96 leading-7">
               <h2 className="font-bold mb-4 text-4xl">

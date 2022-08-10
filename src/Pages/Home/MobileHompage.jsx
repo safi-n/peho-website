@@ -1,4 +1,4 @@
-import VideoHero from "../../assets/PNG/videoHero.png";
+import VideoHero from '../../assets/Staff IMG/IMG_9396.JPG'
 import wwdPicture from "../../assets/JPG/wwdPicture.png";
 import wwaVisionIcon from "../../assets/PNG/wwa-vision.png";
 import wwaMissionIcon from "../../assets/PNG/wwa-mission.png";
