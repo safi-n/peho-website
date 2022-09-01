@@ -1,5 +1,5 @@
-import VideoHero from '../../assets/Staff IMG/IMG_9396.JPG'
-import wwdPicture from "../../assets/JPG/wwdPicture.png";
+import VideoHero from '../../assets/JPG/wwdPicture.png'
+import wwdPicture from "../../assets/Staff IMG/IMG_9400.JPG"
 import wwaVisionIcon from "../../assets/PNG/wwa-vision.png";
 import wwaMissionIcon from "../../assets/PNG/wwa-mission.png";
 import wwaGoalIcon from "../../assets/PNG/wwa-goal.png";

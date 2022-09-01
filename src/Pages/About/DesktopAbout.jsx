@@ -1,5 +1,6 @@
 import watofPic1 from "../../assets/Staff IMG/IMG_9398.JPG";
-import watofPic2 from "../../assets/Staff IMG/IMG_9396.JPG";
+import watofPic2 from "../../assets/JPG/wwdPicture.png";
+// import watofPic2 from "../../assets/Staff IMG/IMG_9396.JPG";
 import watofPic3 from "../../assets/Staff IMG/IMG_9403.JPG";
 import afghanIcon from "../../assets/PNG/AfghanIcon.png";
 import accountabilityIcon from "../../assets/PNG/AccountabiltyIcon-01.png";

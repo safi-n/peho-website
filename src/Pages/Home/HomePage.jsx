@@ -1,5 +1,6 @@
 import "../../Style/home.css";
-import StaffImg from '../../assets/Staff IMG/IMG_9396.JPG'
+import mainImage from '../../assets/JPG/wwdPicture.png'
+// import StaffImg from '../../assets/Staff IMG/IMG_9396.JPG'
 import wwdPicture from "../../assets/Staff IMG/IMG_9400.JPG";
 import wwaVisionIcon from "../../assets/PNG/wwa-vision.png";
 import wwaMissionIcon from "../../assets/PNG/wwa-mission.png";
@@ -24,7 +25,7 @@ const HomePage = () => {
           </div>
           <div className="hero-visual-box">
             <div className="hero-mockup">
-              <img src={StaffImg} alt="Video Hero" className="mt-11 hero-image" />
+              <img src={mainImage} alt="Video Hero" className="mt-11 hero-image" />
             </div>
           </div>
         </div>
